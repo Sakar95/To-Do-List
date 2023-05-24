@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(70 181 255));
+    
+}
+
+::placeholder { 
+    color: rgb(202, 200, 200);
+    opacity: 1; 
+  }
+  
+
+.heading h1{
+    padding-top: 15px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(17 70 155);
+    /* text-decoration: underline; */
+    text-shadow: 0.5px 0.5px 1.5px black;
+}
+
+.inputBox{
+    position: relative;
+    margin: 5px auto ;
+    max-width: 400px;
+    width: 70vw;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding:5px 15px;
+    font-size: 1.2em;
+    font-family: 'Kalam', cursive;
+    background: #2980b9;
+    border-radius: 10px;
+    box-shadow:1px 1px 2px rgb(0, 0, 0);
+    color: white;
+    outline: none;
+}
+
+
+.inputBox button{
+    position: absolute;
+    right: 16px;
+    bottom: -14px;
+    border: none;
+    border-radius: 50%;
+    height:33px;
+    width:33px;
+    font-size:2em;
+    background-color: #0e4e78;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    transition: all 0.4s;
+}
+
+.inputBox button:hover{
+    background:rgb(255, 254, 254);
+    color: #0e4e78;
+}
+
+
+.list{
+    width: 65vw;
+    max-width:300px; 
+    position: relative;
+    margin: 40px auto;
+    min-height: 400px;
+    height: auto;
+    padding: 20px 40px ;
+    background-color:#d9ebf7;
+    /* background-color: #7bea9e; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    
+   
+}
+
+ .list ul {
+    width: 100%;
+    font-size: 1.4em;
+    color: #454545;
+    font-family: 'Kalam', cursive;
+    list-style: none;
+}
+
+.list p{
+    font-size: 1.3em;
+    color: #2980b9;
+    font-family: 'Kalam', cursive;
+    list-style: none;
+}
+
+.listitem {
+    position: relative;
+    padding: 8px 0;
+}
+
+.list-btn{
+    position: absolute;
+    right:-5px;
+    top: 12px;
+    background-color: transparent;
+    transition: all 0.5s;
+    color: #0e4e78;
+}
+
+.list-btn:hover{
+    color: red;
+}
+
+
+
+
+
+hr {
+    border: 1px solid #103e87;
+    box-shadow: 2px 2px 3px rgb(2 6 56);
+}
